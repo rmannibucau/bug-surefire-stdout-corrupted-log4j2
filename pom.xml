@@ -40,16 +40,32 @@
       <artifactId>log4j-jul</artifactId>
       <version>2.11.1</version>
     </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.junit.jupiter</groupId>-->
+      <!--<artifactId>junit-jupiter-api</artifactId>-->
+      <!--<version>5.3.1</version>-->
+      <!--<scope>test</scope>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.junit.jupiter</groupId>-->
+      <!--<artifactId>junit-jupiter-engine</artifactId>-->
+      <!--<version>5.3.1</version>-->
+      <!--<scope>test</scope>-->
+    <!--</dependency>-->
+
+    <!-- Does not help... -->
+    <!--<dependency>-->
+      <!--<groupId>org.junit.vintage</groupId>-->
+      <!--<artifactId>junit-vintage-engine</artifactId>-->
+      <!--<version>5.3.1</version>-->
+      <!--<scope>test</scope>-->
+    <!--</dependency>-->
+
+    <!--Helps ... -->
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.3.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.3.1</version>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
