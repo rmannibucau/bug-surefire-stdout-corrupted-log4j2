@@ -1,0 +1,8 @@
+= Bug Surefire
+
+How to reproduce:
+
+[source]
+----
+mvn install -DskipTests && mvn test
+----
